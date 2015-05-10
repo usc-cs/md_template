@@ -1,0 +1,8 @@
+index: 'Home'
+assignments:
+  label: 'Assignments'
+  link: 'assignments'
+ptz:
+  label: 'Some Really Cool External Website'
+  link: 'http://peetahzee.com'
+  external: true

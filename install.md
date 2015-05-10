@@ -17,6 +17,7 @@ There are many ways to do that, though the simplest is probably just by using th
 Find your repository on GitHub, and go under **Settings** -> **Webhooks & Services**. Find the **Add webhook** button on the top right, and click it.
 
 Fill in the box with the following options (unless told otherwise):
+
 - **Payload URL**: `http://bits.usc.edu/md_receiver/receiver.php`
 - **Content type**: `application/json`
 - **Secret**: _(ask an admin)_
@@ -35,7 +36,7 @@ Make a change to the [`sites.json` file in the `md_receiver` repository](https:/
 You'll need to add an object in the json file that describes your site, following this structure:
 
 ```json
-  "username_or_orgname/reponame" : {
+  "username_or_orgname/reponame": {
     "target": "target_url"
   }
 ```

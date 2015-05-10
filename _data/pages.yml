@@ -1,4 +1,5 @@
 index: 'Home'
+install: 'Installation'
 assignments:
   label: 'Assignments'
   link: 'assignments'

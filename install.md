@@ -35,10 +35,13 @@ Make a change to the [`sites.json` file in the `md_receiver` repository](https:/
 
 You'll need to add an object in the json file that describes your site, following this structure:
 
-```json
+```js
+{
+	// other repos here...
   "username_or_orgname/reponame": {
     "target": "target_url"
   }
+}
 ```
 
 Where `target_url` is where your website will be deployed to (e.g., `http://bits.usc.edu/target_url`).

@@ -49,7 +49,7 @@ Where `target_url` is where your website will be deployed to (e.g., `http://bits
 Alternatively, if you expect that you will be creating multiple sites, ask an admin to become a collaborator. 
 
 
-You will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` repo.
+You will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` repo.  Use `sudo git pull`.
 
 You will also need to add `ptzbot` with write access to your website repo.
 

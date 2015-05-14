@@ -51,7 +51,7 @@ Alternatively, if you expect that you will be creating multiple sites, ask an ad
 
 You will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` repo.  Use `sudo git pull`.
 
-You will also need to add `ptzbot` with write access to your website repo.
+You will also need to add `ptzbot` with write access to your website repo.  the bot account used is defined in `github_account.json`
 
 ### Make your changes as usual
 

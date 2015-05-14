@@ -48,6 +48,11 @@ Where `target_url` is where your website will be deployed to (e.g., `http://bits
 
 Alternatively, if you expect that you will be creating multiple sites, ask an admin to become a collaborator. 
 
+
+You will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` repo.
+
+You will also need to add `ptzbot` with write access to your website repo.
+
 ### Make your changes as usual
 
 Follow the [Usage Guide]({{ site.url }}/guide.html), and edit your website. Create pages, upload files, etc. Take advantage of git's collaborative nature and go crazy with your fellow teaching staff.

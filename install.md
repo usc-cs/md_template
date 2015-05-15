@@ -24,6 +24,8 @@ Fill in the box with the following options (unless told otherwise):
 - **Which events would you like to trigger this webhook?**: Just the `push` event
 - **Active**: checked
 
+Secret is in the www/docs/md_receiver/secret.php
+
 ### Register your website
 
 Make a change to the [`sites.json` file in the `md_receiver` repository](https://github.com/usc-cs/md_receiver/blob/master/sites.json) and submit a pull request. In a nutshell, this means:

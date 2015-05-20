@@ -1,8 +1,7 @@
-#CSCI 104 - Course Website
+# USC CS Course Website Template
 
-The course webiste uses the [Jekyll] static website generator to render its content. Since the course is highly intergrated with GitHub, using [Jekyll] makes life easier when writing labs and assignments.
+The course webiste uses the [Jekyll] static website generator to render its content. It works with the [receiver script](https://github.com/usc-cs/md_receiver) to compile and serve from the [http://bits.usc.edu](http://bits.usc.edu).
 
-###How to Edit the Course Website?
 You can edit the course website by commiting to this repository. This repository uses [Post-Receive Hooks](https://help.github.com/articles/post-receive-hooks) to automatically push changes to the course account on [www-scf](http://www-scf.usc.edu/~csci104/).
 
 You can easily use GitHub's [web-based editor](https://github.com/blog/905-edit-like-an-ace) to edit the website online. That is if you don't want to edit your files locally.

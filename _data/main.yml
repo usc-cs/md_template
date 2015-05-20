@@ -1,4 +1,6 @@
 course_name: 'USC CS Course Website Template'
 course_code: 'CSCI MD'
 course_sem: 'Spring 2015'
+github: https://github.com/usc-cs/md_template
+piazza: https://piazza.com/class/i45v51lhnxr2k9
 footer_notice: 'USC > UCLA Muahaha'

@@ -1,4 +1,16 @@
 <div id="sidebar">
+	<div id="quicklinks">
+		{% if site.data.main.github or site.data.main.piazza %}
+			<ul>
+				{% if site.data.main.github %}
+					<li><a href="{{site.data.main.github}}"><img src="{{site.url}}/style/github.png" /></a></li>
+				{% endif %}
+				{% if site.data.main.piazza %}
+					<li><a href="{{site.data.main.piazza}}"><img src="{{site.url}}/style/piazza.png" /></a></li>
+				{% endif %}
+			</ul>
+		{% endif %}
+	</div>
 	<nav><ul>
 		{% for p in site.data.pages %}
 			{% if p[1].external %}

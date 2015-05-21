@@ -8,7 +8,7 @@ nav: index
 
 Welcome! 
 
-This is a website built with [Jekyll](http://jekyllrb.com/), which compiles Markdown-written documents into webpages, like what you're seeing right now. It's designed to be robus and flexible, allowing the teaching staff to easily create and maintain a website with minimal setup.
+This is a website built with [Jekyll](http://jekyllrb.com/), which compiles Markdown-written documents into webpages, like what you're seeing right now. It's designed to be robust and flexible, allowing the teaching staff to easily create and maintain a website with minimal setup.
 
 In addition to [standard Markdown syntax](https://help.github.com/articles/github-flavored-markdown/), Syntax Highlighting and MathJax is also supported!
 

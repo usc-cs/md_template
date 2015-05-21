@@ -1,6 +1,6 @@
 <div id="sidebar">
+	{% if site.data.main.github or site.data.main.piazza %}	
 	<div id="quicklinks">
-		{% if site.data.main.github or site.data.main.piazza %}
 			<ul>
 				{% if site.data.main.github %}
 					<li><a href="{{site.data.main.github}}"><img src="{{site.url}}/style/github.png" /></a></li>
@@ -9,8 +9,9 @@
 					<li><a href="{{site.data.main.piazza}}"><img src="{{site.url}}/style/piazza.png" /></a></li>
 				{% endif %}
 			</ul>
-		{% endif %}
+			<div class="clear"></div>
 	</div>
+	{% endif %}
 	<nav><ul>
 		{% for p in site.data.pages %}
 			{% if p[1].external %}
@@ -26,9 +27,7 @@
 					<li>{{p[1]}}</li>
 				</a>
 			{% endif %}
-			
 		{% endfor %}
-		
 	</ul></nav>
 </div>
 

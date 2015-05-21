@@ -39,7 +39,7 @@ You'll need to add an object in the json file that describes your site, followin
 
 ```js
 {
-	// other repos here...
+  // other repos here...
   "username_or_orgname/reponame": {
     "target": "target_url"
   }
@@ -48,12 +48,9 @@ You'll need to add an object in the json file that describes your site, followin
 
 Where `target_url` is where your website will be deployed to (e.g., `http://bits.usc.edu/target_url`).
 
-Alternatively, if you expect that you will be creating multiple sites, ask an admin to become a collaborator. 
+Alternatively, if you expect that you will be creating multiple sites, ask an admin to become a collaborator of that repository.
 
-
-You will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` repo.  Use `sudo git pull`.
-
-You will also need to add `ptzbot` with write access to your website repo.  the bot account used is defined in `github_account.json`
+After the sites.json has been updated, you will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` folder.  Use `git pull`. You will also need to add `ptzbot` with read access to your website repo. (The bot account used may change - it is defined in `github_account.json` in `md_receiver`.)
 
 ### Make your changes as usual
 
@@ -71,7 +68,7 @@ This command updates the `deploy` branch to where `master` is. The website will 
 
 **Important!** Notice that this bahvior is different from the original CS 104 website. Now, you can collaborate on the `master` branch without having to worry about deploying an unfinished version of your website.
 
-If everything is setup properly, you should get an email shortly after you push notifying you of the deployment.
+If everything is setup properly, you should get an email shortly after you push, notifying you of the deployment.
 
 
 

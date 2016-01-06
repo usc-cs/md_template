@@ -26,6 +26,8 @@ Fill in the box with the following options (unless told otherwise):
 
 Secret is in the www/docs/md_receiver/secret.php
 
+ You will also need to add `usc-md-bot` with read access to your website repo. (The bot account used may change - it is defined in `github_account.json` in `md_receiver`.)
+
 ### Register your website
 
 Make a change to the [`sites.json` file in the `md_receiver` repository](https://github.com/usc-cs/md_receiver/blob/master/sites.json) and submit a pull request. In a nutshell, this means:
@@ -48,9 +50,9 @@ You'll need to add an object in the json file that describes your site, followin
 
 Where `target_url` is where your website will be deployed to (e.g., `http://bits.usc.edu/target_url`).
 
-Alternatively, if you expect that you will be creating multiple sites, ask an admin to become a collaborator of that repository.
+After the sites.json has been updated, you will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` folder.  Use `git pull`.
 
-After the sites.json has been updated, you will need to do a pull on the `bits.usc.edu:www/docs/md_receiver` folder.  Use `git pull`. You will also need to add `ptzbot` with read access to your website repo. (The bot account used may change - it is defined in `github_account.json` in `md_receiver`.)
+Alternatively, if you expect that you will be creating multiple sites, ask an admin to become a collaborator of that repository.
 
 ### Make your changes as usual
 
